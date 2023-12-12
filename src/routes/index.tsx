@@ -53,15 +53,6 @@ export default component$(() => {
         </Infobox>
 
         <div>
-          <Infobox>
-            <div q:slot="title" class="icon icon-apps">
-              Example Apps
-            </div>
-            <p>
-              Have a look at the <a href="/demo/flower">Flower App</a> or the{" "}
-              <a href="/demo/todolist">Todo App</a>.
-            </p>
-          </Infobox>
 
           <Infobox>
             <div q:slot="title" class="icon icon-community">
